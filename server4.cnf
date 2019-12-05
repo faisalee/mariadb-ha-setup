@@ -1,0 +1,10 @@
+[mysqld]
+server_id=4000
+#log_bin = mariadb-bin
+log_bin_index = mariadb-bin.index
+binlog_format = ROW
+gtid_strict_mode = 1
+bind_address = 0.0.0.0
+log_slave_updates=1
+log_error
+log_bin = mariadb-bin
