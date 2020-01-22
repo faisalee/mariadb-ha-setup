@@ -8,3 +8,5 @@ bind_address = 0.0.0.0
 log_slave_updates=1
 log_error
 log_bin = mariadb-bin
+log_bin = mariadb-bin
+log_bin = mariadb-bin
